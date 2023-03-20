@@ -1,4 +1,10 @@
-const page = (
+
+
+
+
+function TemporaryName() {
+    return (
+
  <div>
     <img src="./react-logo.png" width="40px"/> 
       <h1>Fun facts about React</h1>
@@ -11,6 +17,8 @@ const page = (
         </ul>
  </div>
 
-)
+    )
+}
 
-ReactDOM.render(page,document.getElementById("root"))
+ReactDOM.render(<TemporaryName />,document.getElementById("root"))
+
