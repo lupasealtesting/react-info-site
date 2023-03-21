@@ -2,8 +2,13 @@
 function Header(){
     return (
     <header>
-    <nav>
-      <img src="./react-logo.png" width="40px"/>
+    <nav className="nav">
+      <img className="nav-logo" src="./react-logo.png"/>
+        <ul className="nav-items">
+            <li >Pricing</li>
+            <li >About</li>
+            <li >Contact</li>
+        </ul>
       </nav>
   </header>
     )
